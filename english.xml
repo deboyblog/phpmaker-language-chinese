@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ew-language date="2016/7/25" version="13.0.0" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+<!-- 
+	*** Important Notes:
+	1. Language ID should follow: https://developers.google.com/recaptcha/docs/language,
+	2. Locale settings are placed in a separate locale files under the "locales" folder,
+	3. Locale files must be named with language ID of language file (and converted to lowercase), e.g. en.json,
+	4. Locale files are ALWAYS used, regardless of whether the project is single language or multiple language.
+-->
+<global>
+	<phrase id="ActionDeleted" value="Deleted"/>
+	<phrase id="ActionInserted" value="Inserted"/>
+	<phrase id="ActionInsertedGridAdd" value="Inserted (Grid-Add)"/>
+	<phrase id="ActionUpdated" value="Updated"/>
+	<phrase id="ActionUpdatedGridEdit" value="Updated (Grid-Edit)"/>
+	<phrase id="ActionUpdatedMultiUpdate" value="Updated (Multi-Update)"/>
+	<phrase id="ActivateAccount" value="Your account is activated"/>
+	<phrase id="ActivateFailed" value="Activation failed"/>
+	<phrase id="Add" value="Add"/>
+	<phrase id="AddBlankRow" value="Add Blank Row" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+	<phrase id="AddBtn" value="Add"/>
+	<phrase id="AddLink" value="Add" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+	<phrase id="AddMasterDetailLink" value="Master/Detail Add" class="icon-md-add ewIcon"/><!-- v11 -->
+	<phrase id="AddSuccess" value="Add succeeded"/>
+	<phrase id="AdvancedSearch" value="Advanced Search"/><!-- v11 -->
+	<phrase id="AdvancedSearchBtn" value="Advanced Search" class="icon-advanced-search ewIcon"/><!-- v11 -->
+	<phrase id="AllRecords" value="All"/>
+	<phrase id="AllWord" value="All words"/>
+	<phrase id="AlwaysAsk" value="Always ask for my user name and password"/>
+	<phrase id="AnyWord" value="Any word"/>
+	<phrase id="AuditTrailAutoLogin" value="autologin"/>
+	<phrase id="AuditTrailFailedAttempt" value="failed attempt: %n"/>
+	<phrase id="AuditTrailUserLoggedIn" value="user already logged in"/>
+	<phrase id="AuditTrailPasswordExpired" value="password expired"/>
+	<phrase id="AuditTrailLogin" value="login"/>
+	<phrase id="AuditTrailLogout" value="logout"/>
+	<phrase id="AutoLogin" value="Auto login until I logout explicitly"/>
+	<phrase id="Average" value="Average"/>
+	<phrase id="BackToList" value="Back to List"/>
+	<phrase id="BackToLogin" value="Back to login page"/>
+	<phrase id="BackToMasterRecordPage" value="Back to master table"/>
+	<phrase id="BatchDeleteBegin" value="*** Batch delete begin ***"/>
+	<phrase id="BatchDeleteRollback" value="*** Batch delete rollback ***"/>
+	<phrase id="BatchDeleteSuccess" value="*** Batch delete successful ***"/>
+	<phrase id="BatchInsertBegin" value="*** Batch insert begin ***"/>
+	<phrase id="BatchInsertRollback" value="*** Batch insert rollback ***"/>
+	<phrase id="BatchInsertSuccess" value="*** Batch insert successful ***"/>
+	<phrase id="BatchUpdateBegin" value="*** Batch update begin ***"/>
+	<phrase id="BatchUpdateRollback" value="*** Batch update rollback ***"/>
+	<phrase id="BatchUpdateSuccess" value="*** Batch update successful ***"/>
+	<phrase id="ButtonActions" value="Actions" class="icon-options ewIcon"/><!-- v11 -->
+	<phrase id="ButtonAddEdit" value="Add/Edit" class="icon-addedit ewIcon"/><!-- v11 -->
+	<phrase id="ButtonDetails" value="Master/Detail" class="icon-master-detail ewIcon"/><!-- v11 -->
+	<phrase id="ButtonExport" value="Export" class="icon-export ewIcon"/><!-- v11 -->
+	<phrase id="ButtonListOptions" value="Options" class="icon-options ewIcon"/><!-- v11 -->
+	<phrase id="ButtonSearch" value="Search" class="icon-search ewIcon"/><!-- v11 -->
+	<phrase id="CancelBtn" value="Cancel" client="1"/><!-- v2017 -->
+	<phrase id="CancelLink" value="Cancel" class="glyphicon glyphicon-remove ewIcon"/><!-- v11 -->
+	<phrase id="ChangePwd" value="Change Password"/>
+	<phrase id="ChangePwdPage" value="Change Password"/>
+	<phrase id="ChangePwdBtn" value="Change"/>
+	<phrase id="ChooseFileBtn" value="Choose..."/><!-- v11 -->
+	<phrase id="ChooseFile" value="Choose file"/><!-- v11 -->
+	<phrase id="ChooseFiles" value="Choose files"/><!-- v11 -->
+	<phrase id="ClickReCaptcha" value="Please click reCAPTCHA" client="1"/><!-- v12 -->
+	<phrase id="CloseBtn" value="Close" client="1"/><!-- v2017 -->
+	<phrase id="Confirm" value="Confirm"/>
+	<phrase id="ConfirmBtn" value="Confirm" client="1"/><!-- v2017 -->
+	<phrase id="ConfirmCancel" value="Do you want to cancel?" client="1"/><!-- v12 -->
+	<phrase id="ConfirmPassword" value="Confirm Password"/>
+	<phrase id="ConflictCancelLink" value="Cancel"/>
+	<phrase id="LightboxTitle" value=" " client="1"/><!-- v11 -->
+	<phrase id="LightboxCurrent" value="image {current} of {total}" client="1"/><!-- Note: DO NOT translate "{current}" and "{total}" --><!-- v11 -->
+	<phrase id="LightboxPrevious" value="previous" client="1"/><!-- v11 -->
+	<phrase id="LightboxNext" value="next" client="1"/><!-- v11 -->
+	<phrase id="LightboxClose" value="close" client="1"/><!-- v11 -->
+	<phrase id="LightboxXhrError" value="This content failed to load." client="1"/><!-- v11 -->
+	<phrase id="LightboxImgError" value="This image failed to load." client="1"/><!-- v11 -->
+	<phrase id="Copy" value="Copy"/>
+	<phrase id="CopyLink" value="Copy" class="icon-copy ewIcon"/><!-- v11 -->
+	<phrase id="Count" value="Count"/>
+	<phrase id="CountSelected" value="%s selected" client="1"/><!-- v12 -->
+	<phrase id="CurrentPassword" value="Current password: " client="1"/><!-- v12 -->
+	<phrase id="CustomActionCompleted" value="'%s' completed"/>
+	<phrase id="CustomActionCancelled" value="'%s' cancelled"/>
+	<phrase id="CustomActionFailed" value="'%s' failed"/><!-- v12 -->
+	<phrase id="CustomActionNotAllowed" value="'%s' not allowed"/><!-- v12 -->
+	<phrase id="CustomView" value="CUSTOM VIEW"/>
+	<phrase id="Delete" value="Delete"/>
+	<phrase id="DeleteBtn" value="Delete"/>
+	<phrase id="DeleteCancelled" value="Delete cancelled"/>
+	<phrase id="DeleteConfirmMsg" value="Are you sure you want to delete?" client="1"/>
+	<phrase id="DeleteFilter" value="Delete filter"/><!-- v12 -->
+	<phrase id="DeleteFilterConfirm" value="Delete filter %s?" client="1"/><!-- v12 -->
+	<phrase id="DeleteLink" value="Delete" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+	<phrase id="DeleteSelectedLink" value="Delete Selected Records" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+	<phrase id="DeleteSuccess" value="Delete succeeded"/>
+	<phrase id="DetailLink" value=""/>
+	<phrase id="DetailCount" value="&lt;span dir='ltr'&gt;(%c)&lt;/span&gt;"/><!-- v11 -->
+	<phrase id="MasterDetailCopyLink" value="Master/Detail Copy" class="icon-md-copy ewIcon"/><!-- v11 -->
+	<phrase id="MasterDetailEditLink" value="Master/Detail Edit" class="icon-md-edit ewIcon"/><!-- v11 -->
+	<phrase id="MasterDetailListLink" value="Detail List" class="icon-table ewIcon"/><!-- v11 -->
+	<phrase id="MasterDetailViewLink" value="Master/Detail View" class="icon-md-view ewIcon"/><!-- v11 -->
+	<phrase id="DupIndex" value="Duplicate value '%v' for unique index '%f'"/>
+	<phrase id="DupKey" value="Duplicate primary key: '%f'"/>
+	<phrase id="Edit" value="Edit"/>
+	<phrase id="EditLink" value="Edit" class="icon-edit ewIcon"/><!-- v11 -->
+	<phrase id="EnterFilterName" value="Enter filter name" client="1"/><!-- v12 -->
+	<phrase id="EnterNewPassword" value="Please enter new password" client="1"/>
+	<phrase id="EnterOldPassword" value="Please enter old password" client="1"/>
+	<phrase id="EnterPassword" value="Please enter password" client="1"/>
+	<phrase id="EnterPwd" value="Please enter password" client="1"/>
+	<phrase id="EnterRequiredField" value="Please enter required field - %s"/><!-- v11 -->
+	<phrase id="EnterSearchCriteria" value="Please enter search criteria"/>
+	<phrase id="EnterUserName" value="Please enter username" client="1"/>
+	<phrase id="EnterValidateCode" value="Enter the validation code shown" client="1"/><!-- v11 -->
+	<phrase id="EnterSenderEmail" value="Please enter sender email" client="1"/>
+	<phrase id="EnterProperSenderEmail" value="Exceed maximum sender email count or email address incorrect" client="1"/>
+	<phrase id="EnterRecipientEmail" value="Please enter recipient email" client="1"/>
+	<phrase id="EnterProperRecipientEmail" value="Exceed maximum recipient email count or email address incorrect" client="1"/>
+	<phrase id="EnterProperCcEmail" value="Exceed maximum cc email count or email address incorrect" client="1"/>
+	<phrase id="EnterProperBccEmail" value="Exceed maximum bcc email count or email address incorrect" client="1"/>
+	<phrase id="EnterSubject" value="Please enter subject" client="1"/>
+	<phrase id="EmailFormSender" value="From"/>
+	<phrase id="EmailFormRecipient" value="To"/>
+	<phrase id="EmailFormCc" value="Cc"/>
+	<phrase id="EmailFormBcc" value="Bcc"/>
+	<phrase id="EmailFormSubject" value="Subject"/>
+	<phrase id="EmailFormMessage" value="Message"/>
+	<phrase id="EmailFormContentType" value="Send as"/>
+	<phrase id="EmailFormContentTypeUrl" value="URL"/>
+	<phrase id="EmailFormContentTypeHtml" value="HTML"/>
+	<phrase id="EnterUid" value="Please enter user ID" client="1"/>
+	<phrase id="EnterValidEmail" value="Please enter valid Email Address" client="1"/>
+	<phrase id="ExactPhrase" value="Exact phrase"/>
+	<phrase id="ExceedMaxRetry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes"/>
+	<phrase id="ExceedMaxEmailExport" value="Exceed maximum export email count. Please try again later"/>
+	<phrase id="ExportToCsv" value="Export to CSV" class="icon-csv ewIcon"/><!-- v11 -->
+	<phrase id="ExportToCsvText" value="CSV"/>
+	<phrase id="ExportToEmail" value="Email" class="icon-email ewIcon"/><!-- v11 -->
+	<phrase id="ExportToEmailText" value="Email" client="1"/>
+	<phrase id="ExportToExcel" value="Export to Excel" class="icon-excel ewIcon"/><!-- v11 -->
+	<phrase id="ExportToExcelText" value="Excel"/>
+	<phrase id="ExportToHtml" value="Export to HTML" class="icon-html ewIcon"/><!-- v11 -->
+	<phrase id="ExportToHtmlText" value="HTML"/>
+	<phrase id="ExportToPDF" value="Export to PDF" class="icon-pdf ewIcon"/><!-- v11 -->
+	<phrase id="ExportToPDFText" value="PDF"/>
+	<phrase id="ExportToWord" value="Export to Word" class="icon-word ewIcon"/><!-- v11 -->
+	<phrase id="ExportToWordText" value="Word"/>
+	<phrase id="ExportToXml" value="Export to XML" class="icon-xml ewIcon"/><!-- v11 -->
+	<phrase id="ExportToXmlText" value="XML"/>
+	<phrase id="FailedToSendMail" value="Failed to send mail. "/>
+	<phrase id="FieldName" value="Field Name"/>
+	<phrase id="FieldRequiredIndicator" value="&lt;span class=&quot;ewRequired&quot;&gt;&amp;nbsp;*&lt;/span&gt;"/>
+	<phrase id="FileNotFound" value="File not found"/><!-- *** characters need to be supported by EW_TMP_IMAGE_FONT *** -->
+	<phrase id="Filter" value="Filter"/><!-- v12 -->
+	<phrase id="FilterName" value="Filter name" client="1"/><!-- v12 -->
+	<phrase id="Filters" value="Filters" class="icon-filter ewIcon"/><!-- v12 -->
+	<phrase id="OverwriteBtn" value="Overwrite" client="1"/><!-- v2017 -->
+	<phrase id="OverwriteLink" value="Overwrite"/>
+	<phrase id="ForgotPwd" value="Forgot Password"/>
+	<phrase id="GoBack" value="Go Back"/>
+	<phrase id="GridAddCancelled" value="Grid add cancelled"/><!-- v11 -->
+	<phrase id="GridAddLink" value="Grid Add" class="icon-grid-add ewIcon"/><!-- v11 -->
+	<phrase id="GridCancelLink" value="Cancel" class="glyphicon glyphicon-remove ewIcon"/><!-- v11 -->
+	<phrase id="GridEditCancelled" value="Grid edit cancelled"/><!-- v11 -->
+	<phrase id="GridEditLink" value="Grid Edit" class="icon-grid-edit ewIcon"/><!-- v11 -->
+	<phrase id="GridInsertLink" value="Insert" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+	<phrase id="GridSaveLink" value="Save" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+	<phrase id="Highlight" value="Highlight"/><!-- v11 -->
+	<phrase id="HighlightBtn" value="Highlight" class="icon-highlight ewIcon"/><!-- v11 -->
+	<phrase id="HomePage" value="Home" class="glyphicon glyphicon-home ewIcon"/><!-- v11 -->
+	<phrase id="IncorrectCreditCard" value="Incorrect credit card number"/>
+	<phrase id="IncorrectDate" value="Incorrect date (%s)"/>
+	<phrase id="IncorrectDateYMD" value="Incorrect date (yyyy%smm%sdd)"/>
+	<phrase id="IncorrectDateMDY" value="Incorrect date (mm%sdd%syyyy)"/>
+	<phrase id="IncorrectDateDMY" value="Incorrect date (dd%smm%syyyy)"/>
+	<phrase id="IncorrectShortDateYMD" value="Incorrect date (yy%smm%sdd)"/>
+	<phrase id="IncorrectShortDateMDY" value="Incorrect date (mm%sdd%syy)"/>
+	<phrase id="IncorrectShortDateDMY" value="Incorrect date (dd%smm%syy)"/>
+	<phrase id="IncorrectEmail" value="Incorrect email" client="1"/>
+	<phrase id="IncorrectField" value="Incorrect field" client="1"/>
+	<phrase id="IncorrectFloat" value="Incorrect floating point number" client="1"/>
+	<phrase id="IncorrectGUID" value="Incorrect GUID" client="1"/>
+	<phrase id="IncorrectInteger" value="Incorrect integer" client="1"/>
+	<phrase id="IncorrectPhone" value="Incorrect phone number" client="1"/>
+	<phrase id="IncorrectRegExp" value="Regular expression not matched" client="1"/>
+	<phrase id="IncorrectRange" value="Number must be between %1 and %2" client="1"/>
+	<phrase id="IncorrectSSN" value="Incorrect social security number" client="1"/>
+	<phrase id="IncorrectTime" value="Incorrect time (hh%smm%sss)"/>
+	<phrase id="IncorrectZip" value="Incorrect ZIP code" client="1"/>
+	<phrase id="InlineAddLink" value="Inline Add" class="icon-inline-add ewIcon"/><!-- v11 -->
+	<phrase id="InlineCopyLink" value="Inline Copy" class="icon-inline-copy ewIcon"/><!-- v11 -->
+	<phrase id="InlineEditLink" value="Inline Edit" class="icon-inline-edit ewIcon"/><!-- v11 -->
+	<phrase id="InsertCancelled" value="Insert cancelled"/>
+	<phrase id="InsertFailed" value="Insert failed" client="1"/>
+	<phrase id="InsertLink" value="Insert" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+	<phrase id="InsertSuccess" value="Insert succeeded"/>
+	<phrase id="InvalidEmail" value="Invalid Email"/>
+	<phrase id="InvalidField" value="Invalid Field"/>
+	<phrase id="InvalidKeyValue" value="Invalid key value"/>
+	<phrase id="InvalidRecord" value="Invalid Record! Key is null" client="1"/>
+	<phrase id="InvalidPostRequest" value="Invalid post request"/><!-- v11 -->
+	<phrase id="InvalidParameter" value="Invalid Parameter"/>
+	<phrase id="InvalidPassword" value="Invalid Password"/>
+	<phrase id="InvalidNewPassword" value="Invalid New Password"/>
+	<phrase id="InvalidUidPwd" value="Incorrect user ID or password"/>
+	<phrase id="Keep" value="Keep"/>
+	<phrase id="Language" value="Language"/>
+	<phrase id="ListActionButton" value="Actions" class="icon-user ewIcon"/><!-- v12 -->
+	<phrase id="Loading" value="Loading..." client="1"/>
+	<phrase id="Login" value="Login"/>
+	<phrase id="LoginCancelled" value="Login cancelled"/>
+	<phrase id="LoginOptions" value="Options"/><!-- v11 -->
+	<phrase id="LoginPage" value="Login"/>
+	<phrase id="Logout" value="Logout"/>
+	<phrase id="LookupLink" value="Lookup - %s" class="glyphicon glyphicon-search ewIcon"/><!-- v2017 -->
+	<phrase id="MasterRecord" value="Master Record: "/>
+	<phrase id="MaxFileSize" value="Max. file size (%s bytes) exceeded." client="1"/>
+	<phrase id="MessageOK" value="OK" client="1"/>
+	<phrase id="Midnight" value="midnight"/><!-- v2017 -->
+	<phrase id="MismatchPassword" value="Mismatch Password" client="1"/>
+	<phrase id="MissingLookupTableName" value="Missing lookup table name"/>
+	<phrase id="MissingDisplayFieldName" value="Missing display field name"/>
+	<phrase id="MissingDisplayFieldValue" value="Missing display field value"/>
+	<phrase id="MissingUserLevelID" value="Missing User Level ID"/>
+	<phrase id="MissingUserLevelName" value="Missing User Level name"/>
+	<phrase id="MobileMenu" value="Menu"/>
+	<phrase id="MultipleMasterDetails" value="Master/Detail" class="icon-master-detail ewIcon"/><!-- v11 -->
+	<phrase id="New" value="New"/>
+	<phrase id="NewPassword" value="New Password"/>
+	<phrase id="NewValue" value="New value"/><!-- v12 -->
+	<phrase id="Next" value="Next" client="1"/><!-- v12 -->
+	<phrase id="NoAddRecord" value="No records to be added" client="1"/>
+	<phrase id="NoFieldSelected" value="No field selected for update" client="1"/>
+	<phrase id="NoPermission" value="You do not have permission to access %s."/><!-- v12.0.6 -->
+	<phrase id="NoAddPermission" value="You do not have permission to add the record."/>
+	<phrase id="NoDeletePermission" value="You do not have permission to delete the record."/>
+	<phrase id="NoEditPermission" value="You do not have permission to edit the record."/>
+	<phrase id="Noon" value="noon"/><!-- v2017 -->
+	<phrase id="NoRecord" value="No records found" client="1"/><!-- v2017 -->
+	<phrase id="NoRecordForKey" value="No record found for key = "/>
+	<phrase id="NoRecordSelected" value="No records selected" client="1"/>
+	<phrase id="NoTableGenerated" value="No tables generated"/>
+	<phrase id="NoUserLevel" value="No user level settings."/>
+	<phrase id="Of" value="of" client="1"/><!-- v2017 -->
+	<phrase id="Old" value="Old"/>
+	<phrase id="OldPassword" value="Old Password"/>
+	<phrase id="OptionAlreadyExist" value="Option already exists"/>
+	<phrase id="Page" value="Page" client="1"/><!-- v2017 -->
+	<phrase id="PagerFirst" value="First"/>
+	<phrase id="PagerLast" value="Last"/>
+	<phrase id="PagerNext" value="Next"/>
+	<phrase id="PagerPrevious" value="Previous"/>
+	<phrase id="Password" value="Password"/>
+	<phrase id="PasswordMask" value="********"/><!-- v12 -->
+	<phrase id="PasswordRequest" value="Password Request"/>
+	<phrase id="PasswordChanged" value="Password Changed"/>
+	<phrase id="PasswordExpired" value="Password Expired. Please change password."/>
+	<phrase id="PasswordStrength" value="Strength: %p" client="1"/><!-- v12 -->
+	<phrase id="PasswordTooSimple" value="Your password is too simple" client="1"/><!-- v12 -->
+	<phrase id="GeneratePassword" value="Generate password" class="glyphicon glyphicon-flash ewIcon"/><!-- v12 -->
+	<phrase id="Permission" value="Permissions" class="icon-user ewIcon"/><!-- v11 -->
+	<phrase id="PermissionAddCopy" value="Add/Copy"/>
+	<phrase id="PermissionDelete" value="Delete"/>
+	<phrase id="PermissionEdit" value="Edit"/>
+	<phrase id="PermissionListSearchView" value="List/Search/View"/>
+	<phrase id="PermissionList" value="List"/>
+	<phrase id="PermissionSearch" value="Search"/>
+	<phrase id="PermissionView" value="View"/>
+	<phrase id="PickDate" value="Pick a date"/>
+	<phrase id="PleaseSelect" value="Please select" client="1"/><!-- v12 -->
+	<phrase id="PleaseWait" value="Please wait..." client="1"/>
+	<phrase id="PrimaryKeyUnspecified" value="Primary key unspecified"/>
+	<phrase id="PrinterFriendly" value="Printer Friendly" class="icon-print ewIcon"/><!-- v11 -->
+	<phrase id="PrinterFriendlyText" value="Printer Friendly"/>
+	<phrase id="Prev" value="Prev" client="1"/><!-- v12 -->
+	<phrase id="PwdEmailSent" value="Password sent to your email"/>
+	<phrase id="ResetPwdEmailSent" value="The reset password email has been sent to you"/>
+	<phrase id="QuickSearch" value="Quick Search"/>
+	<phrase id="QuickSearchBtn" value="Search"/>
+	<phrase id="QuickSearchAuto" value="Auto" client="1"/><!-- v11 -->
+	<phrase id="QuickSearchAutoShort" value="" client="1"/><!-- v11 -->
+	<phrase id="QuickSearchAll" value="All keywords" client="1"/><!-- v11 -->
+	<phrase id="QuickSearchAllShort" value="All" client="1"/><!-- v11 -->
+	<phrase id="QuickSearchAny" value="Any keywords" client="1"/><!-- v11 -->
+	<phrase id="QuickSearchAnyShort" value="Any" client="1"/><!-- v11 -->
+	<phrase id="QuickSearchExact" value="Exact match" client="1"/><!-- v11 -->
+	<phrase id="QuickSearchExactShort" value="Exact" client="1"/><!-- v11 -->
+	<phrase id="Record" value="Records" client="1"/><!-- v2017 -->
+	<phrase id="RecordChangedByOtherUser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data."/>
+	<phrase id="RecordDeleted" value="record(s) deleted"/>
+	<phrase id="RecordInserted" value="record(s) inserted"/>
+	<phrase id="RecordUpdated" value="record(s) updated"/>
+	<phrase id="RecordsPerPage" value="Page size" client="1"/><!-- v2017 -->
+	<phrase id="Register" value="Register"/>
+	<phrase id="RegisterBtn" value="Register"/>
+	<phrase id="RegisterSuccess" value="Registration succeeded"/>
+	<phrase id="RegisterSuccessActivate" value="Registration succeeded. An email has been sent to your email address, please click the link in the email to activate your account."/>
+	<phrase id="RegisterPage" value="Registration"/>
+	<phrase id="RelatedRecordRequired" value="You cannot add or update a record because the foreign key value does not exist in the master table '%t'"/>
+	<phrase id="RelatedRecordExists" value="You cannot delete a record because related records exist in the detail table '%t'"/>
+	<phrase id="ReloadBtn" value="Reload" client="1"/><!-- v2017 -->
+	<phrase id="ReloadLink" value="Reload"/>
+	<phrase id="RememberMe" value="Remember me"/>
+	<phrase id="Remove" value="Remove"/>
+	<phrase id="Replace" value="Replace"/>
+	<phrase id="Report" value="Report"/>
+	<phrase id="RequestPwdPage" value="Request Password"/>
+	<phrase id="Reset" value="Reset"/>
+	<phrase id="ResendRegisterEmailBtn" value="Resend registration email"/><!-- v12 -->
+	<phrase id="ResendRegisterEmailSuccess" value="Registration email for user '%u' has been re-sent"/><!-- v12 -->
+	<phrase id="ResendRegisterEmailFailure" value="Failed to re-send register email for user '%u' has failed"/><!-- v12 -->
+	<phrase id="ResetConcurrentUserBtn" value="Reset concurrent user session"/><!-- v12 -->
+	<phrase id="ResetConcurrentUserSuccess" value="Session for user '%u' has been reset"/><!-- v12 -->
+	<phrase id="ResetConcurrentUserFailure" value="Failed to reset session for user '%u'"/><!-- v12 -->
+	<phrase id="ResetLoginRetryBtn" value="Reset login retry count"/><!-- v12 -->
+	<phrase id="ResetLoginRetrySuccess" value="Login retry count for user '%u' has been reset"/><!-- v12 -->
+	<phrase id="ResetLoginRetryFailure" value="Failed to reset login retry count for user '%u'"/><!-- v12 -->
+	<phrase id="ResetSearchBtn" value="Reset" class="icon-reset-search ewIcon"/><!-- v11 -->
+	<phrase id="ResetSearch" value="Reset"/>
+	<phrase id="RptAvg" value="Average"/>
+	<phrase id="RptDtlRec" value="Detail Records"/>
+	<phrase id="RptGrandTotal" value="Grand Total"/>
+	<phrase id="RptMax" value="Maximum"/>
+	<phrase id="RptMin" value="Minimum"/>
+	<phrase id="RptSum" value="Sum"/>
+	<phrase id="RptSumHead" value="Summary for"/>
+	<phrase id="SaveBtn" value="Save"/><!-- v11 -->
+	<phrase id="SaveCurrentFilter" value="Save current filter"/><!-- v12 -->
+	<phrase id="SaveUserName" value="Save my user name"/>
+	<phrase id="Search" value="Search" client="1"/><!-- v2017 -->
+	<phrase id="SearchBtn" value="Search" class="glyphicon glyphicon-search ewIcon"/><!-- v11 -->
+	<phrase id="SearchPanel" value="Search Panel"/><!-- v11 -->
+	<phrase id="SelectBtn" value="Select" client="1"/><!-- v2017 -->
+	<phrase id="SendEmailBtn" value="Send"/>
+	<phrase id="SendEmailSuccess" value="Email sent successfully" client="1"/>
+	<phrase id="SendPwd" value="Send"/>
+	<phrase id="SequenceNumber" value="%s."/>
+	<phrase id="ServerCommunicationError" value="An error occured while communicating to the server."/><!-- v2017 -->
+	<phrase id="SessionWillExpire" value="Your session will expire in %s seconds. Click OK to continue your session." client="1"/><!-- v12 -->
+	<phrase id="SessionExpired" value="Your session has expired." client="1"/><!-- v12 -->
+	<phrase id="SetPasswordExpiredBtn" value="Set password expired"/><!-- v12 -->
+	<phrase id="SetPasswordExpiredSuccess" value="Password for user '%u' has been set as expired"/><!-- v12 -->
+	<phrase id="SetPasswordExpiredFailure" value="Failed to set password for user '%u' as expired"/><!-- v12 -->
+	<phrase id="ShowAllBtn" value="Show all" class="icon-reset-search ewIcon"/><!-- v11 -->
+	<phrase id="ShowAll" value="Show all"/><!-- v11 -->
+	<phrase id="SrchLegend" value=""/>
+	<phrase id="Table" value="TABLE"/>
+	<phrase id="TblTypeTABLE" value="Table: "/>
+	<phrase id="TblTypeVIEW" value="View: "/>
+	<phrase id="TblTypeCUSTOMVIEW" value="Custom View: "/>
+	<phrase id="TblTypeREPORT" value="Report: "/>
+	<phrase id="To" value="to"/>
+	<phrase id="Total" value="Total"/>
+	<phrase id="UnauthorizedUserID" value="The current user (%c) is not authorized to assign the user ID (%u)."/>
+	<phrase id="UnauthorizedParentUserID" value="The current user (%c) is not authorized to assign the parent user ID (%p)."/>
+	<phrase id="UnauthorizedMasterUserID" value="The current user (%c) is not authorized to insert the record. Master filter: %f"/>
+	<phrase id="Update" value="Update"/>
+	<phrase id="UpdateBtn" value="Update" client="1"/><!-- v2017 -->
+	<phrase id="UpdateCancelled" value="Update cancelled"/>
+	<phrase id="UpdateFailed" value="Update failed"/>
+	<phrase id="UpdateLink" value="Update" class="glyphicon glyphicon-ok ewIcon"/><!-- v11 -->
+	<phrase id="UpdateSelectAll" value="Select all"/><!-- v11 -->
+	<phrase id="UpdateSelectedLink" value="Update Selected Records" class="icon-edit ewIcon"/><!-- v11 -->
+	<phrase id="UpdateSuccess" value="Update succeeded"/>
+	<phrase id="Uploading" value="Uploading..." client="1"/>
+	<phrase id="UploadStart" value="Start" client="1"/>
+	<phrase id="UploadCancel" value="Cancel" client="1"/>
+	<phrase id="UploadDelete" value="Delete" client="1"/>
+	<phrase id="UploadOverwrite" value="Overwrite old file?" client="1"/>
+	<phrase id="UploadErrMsg1" value="The uploaded file exceeds the upload_max_filesize directive in php.ini"/>
+	<phrase id="UploadErrMsg2" value="The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"/>
+	<phrase id="UploadErrMsg3" value="The uploaded file was only partially uploaded"/>
+	<phrase id="UploadErrMsg4" value="No file was uploaded"/>
+	<phrase id="UploadErrMsg6" value="Missing a temporary folder"/>
+	<phrase id="UploadErrMsg7" value="Failed to write file to disk"/>
+	<phrase id="UploadErrMsg8" value="A PHP extension stopped the file upload"/>
+	<phrase id="UploadErrMsgPostMaxSize" value="The uploaded file exceeds the post_max_size directive in php.ini"/>
+	<phrase id="UploadErrMsgMaxFileSize" value="File is too big" client="1"/>
+	<phrase id="UploadErrMsgMinFileSize" value="File is too small" client="1"/>
+	<phrase id="UploadErrMsgAcceptFileTypes" value="File type not allowed" client="1"/>
+	<phrase id="UploadErrMsgMaxNumberOfFiles" value="Maximum number of files exceeded" client="1"/>
+	<phrase id="UploadErrMsgMaxWidth" value="Image exceeds maximum width"/>
+	<phrase id="UploadErrMsgMinWidth" value="Image requires a minimum width"/>
+	<phrase id="UploadErrMsgMaxHeight" value="Image exceeds maximum height"/>
+	<phrase id="UploadErrMsgMinHeight" value="Image requires a minimum height"/>
+	<phrase id="UploadErrMsgMaxFileLength" value="Total length of file names exceeds field length" client="1"/>
+	<phrase id="UserAdministrator" value="Administrator" client="1"/><!-- v12 -->
+	<phrase id="UserAnonymous" value="Anonymous" client="1"/><!-- v12 -->
+	<phrase id="UserDefault" value="Default" client="1"/><!-- v12 -->
+	<phrase id="UserEmail" value="Email"/>
+	<phrase id="UserExists" value="User already exists"/>
+	<phrase id="UserLevel" value="User Level: "/>
+	<phrase id="UserLevelAdministratorName" value="User level name for user level -1 must be 'Administrator'" client="1"/>
+	<phrase id="UserLevelAnonymousName" value="User level name for user level -2 must be 'Anonymous'" client="1"/><!-- v12 -->
+	<phrase id="UserLevelPermission" value="User Level Permissions"/>
+	<phrase id="UserLevelIDInteger" value="User Level ID must be integer" client="1"/>
+	<phrase id="UserLevelDefaultName" value="User level name for user level 0 must be 'Default'" client="1"/>
+	<phrase id="UserLevelIDIncorrect" value="User defined User Level ID must be larger than 0" client="1"/>
+	<phrase id="UserLevelNameIncorrect" value="User defined User Level name cannot be 'Administrator' or 'Default'" client="1"/>
+	<phrase id="UserLoggedIn" value="User '%u' already logged in"/>
+	<phrase id="UserName" value="User Name"/>
+	<phrase id="UserProfileCorrupted" value="User profile is corrupted. Please logout and login again"/>
+	<phrase id="ValueNotExist" value="Value does not exist" client="1"/><!-- v11 -->
+	<phrase id="View" value="View"/>
+	<phrase id="ViewImageGallery" value="Click to view image"/><!-- v12 -->
+	<phrase id="ViewLink" value="View" class="icon-view ewIcon"/><!-- v11 -->
+	<phrase id="ViewPageAddLink" value="Add" class="glyphicon glyphicon-plus ewIcon"/><!-- v11 -->
+	<phrase id="ViewPageCopyLink" value="Copy" class="icon-copy ewIcon"/><!-- v11 -->
+	<phrase id="ViewPageDeleteLink" value="Delete" class="glyphicon glyphicon-trash ewIcon"/><!-- v11 -->
+	<phrase id="ViewPageDetailLink" value=""/>
+	<phrase id="ViewPageEditLink" value="Edit" class="icon-edit ewIcon"/><!-- v11 -->
+	<phrase id="WrongFileType" value="File type is not allowed." client="1"/>
+	<phrase id="TableOrView" value="Tables"/>
+	<phrase id="=" value="&amp;nbsp;"/><!-- v12 -->
+	<phrase id="EQUAL" value="="/><!-- v12 -->
+	<phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;"/>
+	<phrase id="&lt;" value="&amp;lt;"/>
+	<phrase id="&lt;=" value="&amp;lt;="/>
+	<phrase id="&gt;" value="&amp;gt;"/>
+	<phrase id="&gt;=" value="&amp;gt;="/>
+	<phrase id="LIKE" value="contains"/>
+	<phrase id="NOT LIKE" value="does not contain"/><!-- v11.0.3 -->
+	<phrase id="STARTS WITH" value="starts with"/>
+	<phrase id="ENDS WITH" value="ends with"/>
+	<phrase id="IS NULL" value="is null"/>
+	<phrase id="IS NOT NULL" value="is not null"/>
+	<phrase id="BETWEEN" value="between"/>
+	<phrase id="AND" value="and"/>
+	<phrase id="OR" value="or"/>
+	<phrase id="AM" value="AM"/><!-- v2017 -->
+	<phrase id="PM" value="PM"/><!-- v2017 -->
+</global>
+</ew-language>
